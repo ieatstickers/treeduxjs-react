@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 export function useStateNode<StateNode extends StateNodeInterface<any>>(stateNode: StateNode): StateNodeHooks<StateNode>
 {
   const [ value, setValue ] = useState(stateNode.get());
-  useEffect(() => stateNode.subscribe(setValue));
+  useEffect(() => stateNode.subscribe(setValue), []);
   
   return new Proxy(
     stateNode,
