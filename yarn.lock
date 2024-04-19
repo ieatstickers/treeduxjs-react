@@ -2633,10 +2633,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-treeduxjs@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/treeduxjs/-/treeduxjs-0.1.0.tgz#f02711ab81ddee967a6370388fb770c05df985da"
-  integrity sha512-BEWThJ/lVhscMx9WmeQ827K+GoW8yNWy0RZwi+K+OS3KyEslU79fMRJ94PkjQzAzlSrQqaDgqHD1ItM/PTxs8w==
+treeduxjs@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/treeduxjs/-/treeduxjs-0.2.0.tgz#172b8bd84e57b539dcf2a420819aa094c70749b4"
+  integrity sha512-97nsgg4lGqaFwj1dRbHnctW8vfC/gvvSrZz6/OTwSxr/okvv2Onsu+LXn4IJB1wAsmEFH+MgaHVMZSIFFsk4+Q==
 
 ts-jest@^29.1.2:
   version "29.1.2"
