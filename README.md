@@ -35,8 +35,9 @@ function MyComponent()
   
   return (
     <div>
-      <h1>{user.name}</h1>
-      <button onClick={() => setUser({ name: "John Doe" })}>Change Name</button>
+      <h1>Name: {user.name}</h1>
+      <h1>Age: {user.age}</h1>
+      <button onClick={() => setUser({ name: "John McClane", age: 32 })}>Change Name</button>
     </div>
   );
 
