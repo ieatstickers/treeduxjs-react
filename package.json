@@ -1,6 +1,6 @@
 {
   "name": "treeduxjs-react",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Toolkit for managing state in React applications using TreeduxJS",
   "author": "Mike Burke",
   "license": "MIT",
